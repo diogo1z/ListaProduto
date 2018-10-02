@@ -1,0 +1,49 @@
+.btn {
+    margin-right: 5px;
+}
+.listForm {
+    padding-bottom: 60px;    
+}
+
+.header{
+    align-items: center;
+    padding: 0 10px;
+    height: 70px;
+    border-bottom: lightgray;
+    border-bottom-style: inset;
+    border-bottom-width: thin;
+    margin-bottom: 10px;
+}
+
+.inputSearchHeader{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+.subTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #EEEDF1;
+}
+.subTitleText {
+    display: inline-block;      
+    font-size: 20px;
+    color: black;
+}
+
+.productName { 
+    color: black;
+}
+
+.productDescription {
+    font-size: 10px;
+    color: #747474;
+}
+
+.productPriceBefore {
+    color: #747474;
+    text-decoration: line-through;    
+}
+    
