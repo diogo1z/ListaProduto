@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
-    "start": "npm run dev",
-    "build": "rm -rf ./dist/* && webpack --config ./webpack.config.prod.js --progress --profile --colors"
-    
+    "start": "webpack -p"
   },
   
   "keywords": [],
