@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "start": "webpack --progress --colors --inline --hot -p",
-    "postinstall": "webpack"
+    "postinstall": "node_modules/.bin/webpack"
   },
   
   "keywords": [],
