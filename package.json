@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --progress --colors --inline --hot",
     "start": "webpack --progress --colors --inline --hot -p",
-    "postinstall": "node_modules/.bin/webpack"
+    "postinstall": "node ./ops/heroku-build.js" 
   },
   
   "keywords": [],
