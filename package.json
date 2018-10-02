@@ -4,14 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node node_modules/webpack/bin/webpack.js --display-error-details",
-    "lint": "eslint src/",
-    "start": "node server.js",
-    "heroku-postbuild": "webpack --config webpack.js",
-    "build": "webpack",
-    "build:prod": "webpack --config webpack.js",
-    "dev": "npm run build -- --watch"
-    
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "start": "webpack --progress --colors --inline --hot -p"
   },
   
   "keywords": [],
@@ -58,8 +52,7 @@
     "react-images": "^0.5.19",
     "react-router": "^3.0.2",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2",
+    "webpack": "^1.14.0",    
     "react-data-components": "^1.2.0",
     "react-table": "^6.8.6",
     "reactable": "^1.1.0",
