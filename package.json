@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --inline --hot",
-    "start": "webpack-dev-server --progress --colors --inline --hot",
-    "heroku-postbuild": "webpack --config webpack.prod.js",
+    "build": "node node_modules/webpack/bin/webpack.js --display-error-details",
+    "lint": "eslint src/",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack --config webpack.js",
+    "build": "webpack",
+    "build:prod": "webpack --config webpack.js",
+    "dev": "npm run build -- --watch"
     
   },
   
